@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		3E16FB9A28ED327800674941 /* Buttons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E16FB9928ED327800674941 /* Buttons.swift */; };
+		3E16FB9D28ED363200674941 /* Controls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E16FB9C28ED363200674941 /* Controls.swift */; };
+		3E16FB9F28ED38F000674941 /* NumberInputsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E16FB9E28ED38F000674941 /* NumberInputsView.swift */; };
+		3E16FBA128ED3E2E00674941 /* ToggleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E16FBA028ED3E2E00674941 /* ToggleView.swift */; };
 		3E81137628EA8DD700E591EA /* SystemFeatureAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E81137528EA8DD700E591EA /* SystemFeatureAppApp.swift */; };
 		3E81137828EA8DD700E591EA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E81137728EA8DD700E591EA /* ContentView.swift */; };
 		3E81137A28EA8DD800E591EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E81137928EA8DD800E591EA /* Assets.xcassets */; };
@@ -24,6 +27,9 @@
 
 /* Begin PBXFileReference section */
 		3E16FB9928ED327800674941 /* Buttons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Buttons.swift; sourceTree = "<group>"; };
+		3E16FB9C28ED363200674941 /* Controls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Controls.swift; sourceTree = "<group>"; };
+		3E16FB9E28ED38F000674941 /* NumberInputsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberInputsView.swift; sourceTree = "<group>"; };
+		3E16FBA028ED3E2E00674941 /* ToggleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleView.swift; sourceTree = "<group>"; };
 		3E81137228EA8DD700E591EA /* SystemFeatureApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SystemFeatureApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E81137528EA8DD700E591EA /* SystemFeatureAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemFeatureAppApp.swift; sourceTree = "<group>"; };
 		3E81137728EA8DD700E591EA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -53,6 +59,9 @@
 		3E16FB9B28ED32EF00674941 /* Controls */ = {
 			isa = PBXGroup;
 			children = (
+				3E16FB9C28ED363200674941 /* Controls.swift */,
+				3E16FB9E28ED38F000674941 /* NumberInputsView.swift */,
+				3E16FBA028ED3E2E00674941 /* ToggleView.swift */,
 			);
 			path = Controls;
 			sourceTree = "<group>";
@@ -181,9 +190,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				3E95E39228EC845F00FE8835 /* ColorPickerView.swift in Sources */,
+				3E16FB9D28ED363200674941 /* Controls.swift in Sources */,
 				3EA3820528EB927F00BF5674 /* OutlineLabelView.swift in Sources */,
 				3E95E39828EC955F00FE8835 /* GesturesButtonView.swift in Sources */,
+				3E16FB9F28ED38F000674941 /* NumberInputsView.swift in Sources */,
 				3E16FB9A28ED327800674941 /* Buttons.swift in Sources */,
+				3E16FBA128ED3E2E00674941 /* ToggleView.swift in Sources */,
 				3E95E39428EC91C700FE8835 /* HapticButtonsView.swift in Sources */,
 				3E81138428EA921000E591EA /* Outline.swift in Sources */,
 				3E95E38D28EBF6C300FE8835 /* AppViewModel.swift in Sources */,

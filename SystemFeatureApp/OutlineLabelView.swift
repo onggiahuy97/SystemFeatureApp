@@ -18,7 +18,7 @@ struct OutlineLabelView: View {
             HStack(alignment: .center) {
                 Image(systemName: outline.systemImage ?? "questionmark.app")
                     .imageScale(.large)
-                    .foregroundColor(Color(outline.foregroundColor ?? ""))
+                    .foregroundColor(Color(outline.foregroundColor ?? "Default"))
                 Text(outline.title)
             }
         }

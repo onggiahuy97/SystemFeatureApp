@@ -9,11 +9,11 @@ import SwiftUI
 
 let buttonSectionOutline: SectionOutline = {
     var buttonOutlines: [Outline] = []
-    buttonOutlines.append(contentsOf: [
+    buttonOutlines = [
         colorPickerButtonOutline,
         hapticButtonOutline,
         gesturesButtonOutline
-    ])
+    ]
     let buttonSection = SectionOutline(title: "Button", outlines: buttonOutlines)
     return buttonSection
 }()
