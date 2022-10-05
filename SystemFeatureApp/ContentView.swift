@@ -8,14 +8,16 @@
 import SwiftUI
 
 struct ContentView: View {
+    @AppStorage("selectedTabID") var selectedTabID: String?
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        TabView(selection: $selectedTabID) {
+            OutlineView()
+                .tag(OutlineView.TagID)
+                .tabItem {
+                    Label("Feature", systemImage: "gear")
+                }
         }
-        .padding()
     }
 }
 
