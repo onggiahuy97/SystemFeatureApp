@@ -66,6 +66,17 @@
 			path = Controls;
 			sourceTree = "<group>";
 		};
+		3E16FBA228EDF76C00674941 /* Outline Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				3EA3820628EB939900BF5674 /* OutlineView.swift */,
+				3EA3820428EB927F00BF5674 /* OutlineLabelView.swift */,
+				3E81138328EA921000E591EA /* Outline.swift */,
+				3E95E38E28EBF6FB00FE8835 /* SectionOutline.swift */,
+			);
+			path = "Outline Configuration";
+			sourceTree = "<group>";
+		};
 		3E81136928EA8DD700E591EA = {
 			isa = PBXGroup;
 			children = (
@@ -87,11 +98,8 @@
 			children = (
 				3E81137528EA8DD700E591EA /* SystemFeatureAppApp.swift */,
 				3E81137728EA8DD700E591EA /* ContentView.swift */,
-				3EA3820628EB939900BF5674 /* OutlineView.swift */,
-				3EA3820428EB927F00BF5674 /* OutlineLabelView.swift */,
-				3E81138328EA921000E591EA /* Outline.swift */,
-				3E95E38E28EBF6FB00FE8835 /* SectionOutline.swift */,
 				3E95E38C28EBF6C300FE8835 /* AppViewModel.swift */,
+				3E16FBA228EDF76C00674941 /* Outline Configuration */,
 				3E16FB9B28ED32EF00674941 /* Controls */,
 				3E95E39028EC845600FE8835 /* Buttons */,
 				3E81137928EA8DD800E591EA /* Assets.xcassets */,

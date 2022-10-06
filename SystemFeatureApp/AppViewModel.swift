@@ -9,6 +9,21 @@ import SwiftUI
 
 class AppViewModel: ObservableObject {
     @Published private(set) var sectionOutlines: [SectionOutline] = []
+    @Published var searchText: String = ""
+    
+    private var allOutlines: [Outline] {
+        var outlines = [Outline]()
+        sectionOutlines.forEach { sectionOutline in
+            outlines.append(contentsOf: sectionOutline.outlines)
+        }
+        return outlines
+    }
+
+    var searchOutlines: [Outline] {
+        allOutlines.filter { outline in
+            outline.title.lowercased().contains(searchText.lowercased())
+        }
+    }
     
     init() {
         sectionOutlines.append(buttonSectionOutline)

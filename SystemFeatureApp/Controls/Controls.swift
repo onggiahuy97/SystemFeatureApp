@@ -11,8 +11,7 @@ let controlsSectionOutline: SectionOutline = {
     var outlines = [Outline]()
     outlines = [
         numberInputOutline,
-        toggleInputOutline,
-        
+        toggleInputOutline
     ]
     let section = SectionOutline(title: "Control", outlines: outlines)
     return section
