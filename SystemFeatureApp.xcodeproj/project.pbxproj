@@ -11,6 +11,10 @@
 		3E16FB9D28ED363200674941 /* Controls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E16FB9C28ED363200674941 /* Controls.swift */; };
 		3E16FB9F28ED38F000674941 /* NumberInputsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E16FB9E28ED38F000674941 /* NumberInputsView.swift */; };
 		3E16FBA128ED3E2E00674941 /* ToggleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E16FBA028ED3E2E00674941 /* ToggleView.swift */; };
+		3E16FBA628EFB77100674941 /* DragGestureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E16FBA528EFB77100674941 /* DragGestureView.swift */; };
+		3E16FBA928F09EB600674941 /* SFSymbols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E16FBA828F09EB600674941 /* SFSymbols.swift */; };
+		3E16FBAB28F0A21700674941 /* SFSymbolsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E16FBAA28F0A21700674941 /* SFSymbolsView.swift */; };
+		3E16FBAD28F0DCB200674941 /* symbolsText.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3E16FBAC28F0DCB200674941 /* symbolsText.txt */; };
 		3E81137628EA8DD700E591EA /* SystemFeatureAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E81137528EA8DD700E591EA /* SystemFeatureAppApp.swift */; };
 		3E81137828EA8DD700E591EA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E81137728EA8DD700E591EA /* ContentView.swift */; };
 		3E81137A28EA8DD800E591EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E81137928EA8DD800E591EA /* Assets.xcassets */; };
@@ -30,6 +34,10 @@
 		3E16FB9C28ED363200674941 /* Controls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Controls.swift; sourceTree = "<group>"; };
 		3E16FB9E28ED38F000674941 /* NumberInputsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberInputsView.swift; sourceTree = "<group>"; };
 		3E16FBA028ED3E2E00674941 /* ToggleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleView.swift; sourceTree = "<group>"; };
+		3E16FBA528EFB77100674941 /* DragGestureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGestureView.swift; sourceTree = "<group>"; };
+		3E16FBA828F09EB600674941 /* SFSymbols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFSymbols.swift; sourceTree = "<group>"; };
+		3E16FBAA28F0A21700674941 /* SFSymbolsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFSymbolsView.swift; sourceTree = "<group>"; };
+		3E16FBAC28F0DCB200674941 /* symbolsText.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = symbolsText.txt; sourceTree = "<group>"; };
 		3E81137228EA8DD700E591EA /* SystemFeatureApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SystemFeatureApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E81137528EA8DD700E591EA /* SystemFeatureAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemFeatureAppApp.swift; sourceTree = "<group>"; };
 		3E81137728EA8DD700E591EA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -77,6 +85,23 @@
 			path = "Outline Configuration";
 			sourceTree = "<group>";
 		};
+		3E16FBA428EFB76700674941 /* Gestures */ = {
+			isa = PBXGroup;
+			children = (
+				3E16FBA528EFB77100674941 /* DragGestureView.swift */,
+			);
+			path = Gestures;
+			sourceTree = "<group>";
+		};
+		3E16FBA728F09EAA00674941 /* SF Symbols */ = {
+			isa = PBXGroup;
+			children = (
+				3E16FBA828F09EB600674941 /* SFSymbols.swift */,
+				3E16FBAA28F0A21700674941 /* SFSymbolsView.swift */,
+			);
+			path = "SF Symbols";
+			sourceTree = "<group>";
+		};
 		3E81136928EA8DD700E591EA = {
 			isa = PBXGroup;
 			children = (
@@ -99,10 +124,13 @@
 				3E81137528EA8DD700E591EA /* SystemFeatureAppApp.swift */,
 				3E81137728EA8DD700E591EA /* ContentView.swift */,
 				3E95E38C28EBF6C300FE8835 /* AppViewModel.swift */,
+				3E16FBA728F09EAA00674941 /* SF Symbols */,
+				3E16FBA428EFB76700674941 /* Gestures */,
 				3E16FBA228EDF76C00674941 /* Outline Configuration */,
 				3E16FB9B28ED32EF00674941 /* Controls */,
 				3E95E39028EC845600FE8835 /* Buttons */,
 				3E81137928EA8DD800E591EA /* Assets.xcassets */,
+				3E16FBAC28F0DCB200674941 /* symbolsText.txt */,
 				3E81137B28EA8DD800E591EA /* Preview Content */,
 			);
 			path = SystemFeatureApp;
@@ -187,6 +215,7 @@
 			files = (
 				3E81137D28EA8DD800E591EA /* Preview Assets.xcassets in Resources */,
 				3E81137A28EA8DD800E591EA /* Assets.xcassets in Resources */,
+				3E16FBAD28F0DCB200674941 /* symbolsText.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -201,13 +230,16 @@
 				3E16FB9D28ED363200674941 /* Controls.swift in Sources */,
 				3EA3820528EB927F00BF5674 /* OutlineLabelView.swift in Sources */,
 				3E95E39828EC955F00FE8835 /* GesturesButtonView.swift in Sources */,
+				3E16FBA628EFB77100674941 /* DragGestureView.swift in Sources */,
 				3E16FB9F28ED38F000674941 /* NumberInputsView.swift in Sources */,
 				3E16FB9A28ED327800674941 /* Buttons.swift in Sources */,
 				3E16FBA128ED3E2E00674941 /* ToggleView.swift in Sources */,
 				3E95E39428EC91C700FE8835 /* HapticButtonsView.swift in Sources */,
+				3E16FBAB28F0A21700674941 /* SFSymbolsView.swift in Sources */,
 				3E81138428EA921000E591EA /* Outline.swift in Sources */,
 				3E95E38D28EBF6C300FE8835 /* AppViewModel.swift in Sources */,
 				3E81137828EA8DD700E591EA /* ContentView.swift in Sources */,
+				3E16FBA928F09EB600674941 /* SFSymbols.swift in Sources */,
 				3E95E38F28EBF6FB00FE8835 /* SectionOutline.swift in Sources */,
 				3EA3820728EB939900BF5674 /* OutlineView.swift in Sources */,
 				3E81137628EA8DD700E591EA /* SystemFeatureAppApp.swift in Sources */,

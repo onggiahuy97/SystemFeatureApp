@@ -12,6 +12,8 @@ struct ContentView: View {
     
     var body: some View {
         TabView(selection: $selectedTabID) {
+            SFSymbolsView()
+            DragGestureView()
             OutlineView()
                 .tag(OutlineView.TagID)
                 .tabItem {
