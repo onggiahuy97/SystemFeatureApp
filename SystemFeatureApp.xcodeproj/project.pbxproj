@@ -14,7 +14,14 @@
 		3E16FBA628EFB77100674941 /* DragGestureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E16FBA528EFB77100674941 /* DragGestureView.swift */; };
 		3E16FBA928F09EB600674941 /* SFSymbols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E16FBA828F09EB600674941 /* SFSymbols.swift */; };
 		3E16FBAB28F0A21700674941 /* SFSymbolsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E16FBAA28F0A21700674941 /* SFSymbolsView.swift */; };
-		3E16FBAD28F0DCB200674941 /* symbolsText.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3E16FBAC28F0DCB200674941 /* symbolsText.txt */; };
+		3E16FBAD28F0DCB200674941 /* SFWhatNew.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3E16FBAC28F0DCB200674941 /* SFWhatNew.txt */; };
+		3E16FBBE28F1DBA100674941 /* SFWhether.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3E16FBB128F1DBA100674941 /* SFWhether.txt */; };
+		3E16FBBF28F1DBA100674941 /* SFDevices.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3E16FBB228F1DBA100674941 /* SFDevices.txt */; };
+		3E16FBC128F1DBA100674941 /* SFObjects.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3E16FBB428F1DBA100674941 /* SFObjects.txt */; };
+		3E16FBC328F1DBA100674941 /* SFCameraPhoto.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3E16FBB628F1DBA100674941 /* SFCameraPhoto.txt */; };
+		3E16FBC428F1DBA100674941 /* SFVariables.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3E16FBB728F1DBA100674941 /* SFVariables.txt */; };
+		3E16FBC628F1DBA100674941 /* SFMultiColors.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3E16FBB928F1DBA100674941 /* SFMultiColors.txt */; };
+		3E16FBC728F1DBA100674941 /* SFCommunication.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3E16FBBA28F1DBA100674941 /* SFCommunication.txt */; };
 		3E81137628EA8DD700E591EA /* SystemFeatureAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E81137528EA8DD700E591EA /* SystemFeatureAppApp.swift */; };
 		3E81137828EA8DD700E591EA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E81137728EA8DD700E591EA /* ContentView.swift */; };
 		3E81137A28EA8DD800E591EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E81137928EA8DD800E591EA /* Assets.xcassets */; };
@@ -37,7 +44,14 @@
 		3E16FBA528EFB77100674941 /* DragGestureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGestureView.swift; sourceTree = "<group>"; };
 		3E16FBA828F09EB600674941 /* SFSymbols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFSymbols.swift; sourceTree = "<group>"; };
 		3E16FBAA28F0A21700674941 /* SFSymbolsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFSymbolsView.swift; sourceTree = "<group>"; };
-		3E16FBAC28F0DCB200674941 /* symbolsText.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = symbolsText.txt; sourceTree = "<group>"; };
+		3E16FBAC28F0DCB200674941 /* SFWhatNew.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SFWhatNew.txt; sourceTree = "<group>"; };
+		3E16FBB128F1DBA100674941 /* SFWhether.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SFWhether.txt; sourceTree = "<group>"; };
+		3E16FBB228F1DBA100674941 /* SFDevices.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SFDevices.txt; sourceTree = "<group>"; };
+		3E16FBB428F1DBA100674941 /* SFObjects.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SFObjects.txt; sourceTree = "<group>"; };
+		3E16FBB628F1DBA100674941 /* SFCameraPhoto.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SFCameraPhoto.txt; sourceTree = "<group>"; };
+		3E16FBB728F1DBA100674941 /* SFVariables.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SFVariables.txt; sourceTree = "<group>"; };
+		3E16FBB928F1DBA100674941 /* SFMultiColors.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SFMultiColors.txt; sourceTree = "<group>"; };
+		3E16FBBA28F1DBA100674941 /* SFCommunication.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SFCommunication.txt; sourceTree = "<group>"; };
 		3E81137228EA8DD700E591EA /* SystemFeatureApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SystemFeatureApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E81137528EA8DD700E591EA /* SystemFeatureAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemFeatureAppApp.swift; sourceTree = "<group>"; };
 		3E81137728EA8DD700E591EA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -102,6 +116,21 @@
 			path = "SF Symbols";
 			sourceTree = "<group>";
 		};
+		3E16FBAE28F1DB2B00674941 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				3E16FBAC28F0DCB200674941 /* SFWhatNew.txt */,
+				3E16FBB928F1DBA100674941 /* SFMultiColors.txt */,
+				3E16FBB728F1DBA100674941 /* SFVariables.txt */,
+				3E16FBBA28F1DBA100674941 /* SFCommunication.txt */,
+				3E16FBB128F1DBA100674941 /* SFWhether.txt */,
+				3E16FBB428F1DBA100674941 /* SFObjects.txt */,
+				3E16FBB228F1DBA100674941 /* SFDevices.txt */,
+				3E16FBB628F1DBA100674941 /* SFCameraPhoto.txt */,
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
 		3E81136928EA8DD700E591EA = {
 			isa = PBXGroup;
 			children = (
@@ -130,7 +159,7 @@
 				3E16FB9B28ED32EF00674941 /* Controls */,
 				3E95E39028EC845600FE8835 /* Buttons */,
 				3E81137928EA8DD800E591EA /* Assets.xcassets */,
-				3E16FBAC28F0DCB200674941 /* symbolsText.txt */,
+				3E16FBAE28F1DB2B00674941 /* New Group */,
 				3E81137B28EA8DD800E591EA /* Preview Content */,
 			);
 			path = SystemFeatureApp;
@@ -214,8 +243,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				3E81137D28EA8DD800E591EA /* Preview Assets.xcassets in Resources */,
+				3E16FBBF28F1DBA100674941 /* SFDevices.txt in Resources */,
+				3E16FBC728F1DBA100674941 /* SFCommunication.txt in Resources */,
+				3E16FBC628F1DBA100674941 /* SFMultiColors.txt in Resources */,
 				3E81137A28EA8DD800E591EA /* Assets.xcassets in Resources */,
-				3E16FBAD28F0DCB200674941 /* symbolsText.txt in Resources */,
+				3E16FBAD28F0DCB200674941 /* SFWhatNew.txt in Resources */,
+				3E16FBBE28F1DBA100674941 /* SFWhether.txt in Resources */,
+				3E16FBC128F1DBA100674941 /* SFObjects.txt in Resources */,
+				3E16FBC328F1DBA100674941 /* SFCameraPhoto.txt in Resources */,
+				3E16FBC428F1DBA100674941 /* SFVariables.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

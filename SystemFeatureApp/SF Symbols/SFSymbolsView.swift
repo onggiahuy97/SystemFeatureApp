@@ -8,26 +8,28 @@
 import SwiftUI
 
 struct SFSymbolsView: View {
-    let symbols = SFSymbolsViewModel.SFSymbols
     let columns: [GridItem] = [GridItem.init(.adaptive(minimum: 50))]
-    
-    @State private var searchText = ""
+    let symbols = SFSymbolsViewModel.SFSymbols
     
     var body: some View {
         NavigationStack {
             ScrollView {
-                LazyVGrid(columns: columns, spacing: 12) {
-                    ForEach(symbols, id: \.self) { name in
-                        ZStack {
-                            Image(systemName: String(name))
-                                .imageScale(.large)
+                ForEach(symbols, id: \.type) { type in
+                    DisclosureGroup(type.type.forResource) {
+                        LazyVGrid(columns: columns) {
+                            ForEach(type.symbols, id: \.self) { name in
+                                ZStack {
+                                    Image(systemName: name)
+                                        .imageScale(.large)
+                                }
+                                .padding(8)
+                                .background(Color.gray.opacity(0.2))
+                                .cornerRadius(12)
+                            }
                         }
-                        .frame(width: 50, height: 50)
-                        .background(Color.gray.opacity(0.3))
-                        .cornerRadius(12)
                     }
+                    .padding()
                 }
-                .padding(.horizontal)
             }
             .navigationTitle("SF Symbols")
         }
