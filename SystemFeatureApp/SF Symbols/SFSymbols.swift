@@ -1,4 +1,12 @@
 import Foundation
+import SwiftUI
+
+let sfSymbolsSectionOutline: SectionOutline = {
+    let view = AnyView(SFSymbolsView())
+    var outline = Outline(title: "SF Symbols", outlineType: .outlineView(view))
+    let section = SectionOutline(title: "SF Symbols", outlines: [outline])
+    return section
+}()
 
 class SFSymbolsViewModel {
     static let SFSymbols: [SFSymbol] = {
@@ -46,6 +54,27 @@ extension SFSymbolsViewModel {
                 return "SFDevices"
             case .cameraPhoto:
                 return "SFCameraPhoto"
+            }
+        }
+        
+        var typeSystemImage: String {
+            switch self {
+            case .whatNew:
+                return "star"
+            case .multiColor:
+                return "paintpalette"
+            case .variables:
+                return "slider.horizontal.below.square.and.square.filled"
+            case .communication:
+                return "bubble.left"
+            case .whether:
+                return "cloud.sun"
+            case .objects:
+                return "folder"
+            case .devices:
+                return "iphone.rear.camera"
+            case .cameraPhoto:
+                return "camera"
             }
         }
     }
