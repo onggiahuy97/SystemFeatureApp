@@ -22,6 +22,26 @@
 		3E16FBC428F1DBA100674941 /* SFVariables.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3E16FBB728F1DBA100674941 /* SFVariables.txt */; };
 		3E16FBC628F1DBA100674941 /* SFMultiColors.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3E16FBB928F1DBA100674941 /* SFMultiColors.txt */; };
 		3E16FBC728F1DBA100674941 /* SFCommunication.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3E16FBBA28F1DBA100674941 /* SFCommunication.txt */; };
+		3E16FBCA28F2A04500674941 /* SFKeyboard.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3E16FBC928F2A04500674941 /* SFKeyboard.txt */; };
+		3E16FBD928F2A07400674941 /* SFConnectivity.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3E16FBCD28F2A07400674941 /* SFConnectivity.txt */; };
+		3E16FBDA28F2A07400674941 /* SFMedia.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3E16FBCE28F2A07400674941 /* SFMedia.txt */; };
+		3E16FBDB28F2A07400674941 /* SFHome.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3E16FBCF28F2A07400674941 /* SFHome.txt */; };
+		3E16FBDC28F2A07400674941 /* SFNature.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3E16FBD028F2A07400674941 /* SFNature.txt */; };
+		3E16FBDD28F2A07400674941 /* SFTransportation.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3E16FBD128F2A07400674941 /* SFTransportation.txt */; };
+		3E16FBDE28F2A07400674941 /* SFHuman.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3E16FBD228F2A07400674941 /* SFHuman.txt */; };
+		3E16FBDF28F2A07400674941 /* SFTextFormatting.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3E16FBD328F2A07400674941 /* SFTextFormatting.txt */; };
+		3E16FBE028F2A07400674941 /* SFAccessibility.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3E16FBD428F2A07400674941 /* SFAccessibility.txt */; };
+		3E16FBE128F2A07400674941 /* SFGaming.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3E16FBD528F2A07400674941 /* SFGaming.txt */; };
+		3E16FBE228F2A07400674941 /* SFFitness.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3E16FBD628F2A07400674941 /* SFFitness.txt */; };
+		3E16FBE328F2A07400674941 /* SFPrivacy.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3E16FBD728F2A07400674941 /* SFPrivacy.txt */; };
+		3E16FBE428F2A07400674941 /* SFEditing.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3E16FBD828F2A07400674941 /* SFEditing.txt */; };
+		3E16FBEA28F2A15F00674941 /* SFShapes.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3E16FBE528F2A15E00674941 /* SFShapes.txt */; };
+		3E16FBEB28F2A15F00674941 /* SFArrows.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3E16FBE628F2A15F00674941 /* SFArrows.txt */; };
+		3E16FBEC28F2A15F00674941 /* SFHealth.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3E16FBE728F2A15F00674941 /* SFHealth.txt */; };
+		3E16FBED28F2A15F00674941 /* SFTime.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3E16FBE828F2A15F00674941 /* SFTime.txt */; };
+		3E16FBEE28F2A15F00674941 /* SFCommerce.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3E16FBE928F2A15F00674941 /* SFCommerce.txt */; };
+		3E16FBF028F2A1F200674941 /* SFIndices.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3E16FBEF28F2A1F200674941 /* SFIndices.txt */; };
+		3E16FBF228F2A20000674941 /* SFMath.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3E16FBF128F2A20000674941 /* SFMath.txt */; };
 		3E81137628EA8DD700E591EA /* SystemFeatureAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E81137528EA8DD700E591EA /* SystemFeatureAppApp.swift */; };
 		3E81137828EA8DD700E591EA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E81137728EA8DD700E591EA /* ContentView.swift */; };
 		3E81137A28EA8DD800E591EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E81137928EA8DD800E591EA /* Assets.xcassets */; };
@@ -52,6 +72,26 @@
 		3E16FBB728F1DBA100674941 /* SFVariables.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SFVariables.txt; sourceTree = "<group>"; };
 		3E16FBB928F1DBA100674941 /* SFMultiColors.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SFMultiColors.txt; sourceTree = "<group>"; };
 		3E16FBBA28F1DBA100674941 /* SFCommunication.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SFCommunication.txt; sourceTree = "<group>"; };
+		3E16FBC928F2A04500674941 /* SFKeyboard.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SFKeyboard.txt; sourceTree = "<group>"; };
+		3E16FBCD28F2A07400674941 /* SFConnectivity.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SFConnectivity.txt; sourceTree = "<group>"; };
+		3E16FBCE28F2A07400674941 /* SFMedia.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = SFMedia.txt; path = ../../../../../../Desktop/SFMedia.txt; sourceTree = "<group>"; };
+		3E16FBCF28F2A07400674941 /* SFHome.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SFHome.txt; sourceTree = "<group>"; };
+		3E16FBD028F2A07400674941 /* SFNature.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SFNature.txt; sourceTree = "<group>"; };
+		3E16FBD128F2A07400674941 /* SFTransportation.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SFTransportation.txt; sourceTree = "<group>"; };
+		3E16FBD228F2A07400674941 /* SFHuman.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SFHuman.txt; sourceTree = "<group>"; };
+		3E16FBD328F2A07400674941 /* SFTextFormatting.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SFTextFormatting.txt; sourceTree = "<group>"; };
+		3E16FBD428F2A07400674941 /* SFAccessibility.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SFAccessibility.txt; sourceTree = "<group>"; };
+		3E16FBD528F2A07400674941 /* SFGaming.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SFGaming.txt; sourceTree = "<group>"; };
+		3E16FBD628F2A07400674941 /* SFFitness.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SFFitness.txt; sourceTree = "<group>"; };
+		3E16FBD728F2A07400674941 /* SFPrivacy.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SFPrivacy.txt; sourceTree = "<group>"; };
+		3E16FBD828F2A07400674941 /* SFEditing.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SFEditing.txt; sourceTree = "<group>"; };
+		3E16FBE528F2A15E00674941 /* SFShapes.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SFShapes.txt; sourceTree = "<group>"; };
+		3E16FBE628F2A15F00674941 /* SFArrows.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SFArrows.txt; sourceTree = "<group>"; };
+		3E16FBE728F2A15F00674941 /* SFHealth.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SFHealth.txt; sourceTree = "<group>"; };
+		3E16FBE828F2A15F00674941 /* SFTime.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SFTime.txt; sourceTree = "<group>"; };
+		3E16FBE928F2A15F00674941 /* SFCommerce.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SFCommerce.txt; sourceTree = "<group>"; };
+		3E16FBEF28F2A1F200674941 /* SFIndices.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SFIndices.txt; sourceTree = "<group>"; };
+		3E16FBF128F2A20000674941 /* SFMath.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SFMath.txt; sourceTree = "<group>"; };
 		3E81137228EA8DD700E591EA /* SystemFeatureApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SystemFeatureApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E81137528EA8DD700E591EA /* SystemFeatureAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemFeatureAppApp.swift; sourceTree = "<group>"; };
 		3E81137728EA8DD700E591EA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -110,13 +150,14 @@
 		3E16FBA728F09EAA00674941 /* SF Symbols */ = {
 			isa = PBXGroup;
 			children = (
+				3E16FBAE28F1DB2B00674941 /* SFSymbolsText */,
 				3E16FBA828F09EB600674941 /* SFSymbols.swift */,
 				3E16FBAA28F0A21700674941 /* SFSymbolsView.swift */,
 			);
 			path = "SF Symbols";
 			sourceTree = "<group>";
 		};
-		3E16FBAE28F1DB2B00674941 /* New Group */ = {
+		3E16FBAE28F1DB2B00674941 /* SFSymbolsText */ = {
 			isa = PBXGroup;
 			children = (
 				3E16FBAC28F0DCB200674941 /* SFWhatNew.txt */,
@@ -127,8 +168,28 @@
 				3E16FBB428F1DBA100674941 /* SFObjects.txt */,
 				3E16FBB228F1DBA100674941 /* SFDevices.txt */,
 				3E16FBB628F1DBA100674941 /* SFCameraPhoto.txt */,
+				3E16FBD528F2A07400674941 /* SFGaming.txt */,
+				3E16FBCD28F2A07400674941 /* SFConnectivity.txt */,
+				3E16FBD128F2A07400674941 /* SFTransportation.txt */,
+				3E16FBD428F2A07400674941 /* SFAccessibility.txt */,
+				3E16FBD728F2A07400674941 /* SFPrivacy.txt */,
+				3E16FBD228F2A07400674941 /* SFHuman.txt */,
+				3E16FBCF28F2A07400674941 /* SFHome.txt */,
+				3E16FBD628F2A07400674941 /* SFFitness.txt */,
+				3E16FBD028F2A07400674941 /* SFNature.txt */,
+				3E16FBD828F2A07400674941 /* SFEditing.txt */,
+				3E16FBD328F2A07400674941 /* SFTextFormatting.txt */,
+				3E16FBCE28F2A07400674941 /* SFMedia.txt */,
+				3E16FBC928F2A04500674941 /* SFKeyboard.txt */,
+				3E16FBE928F2A15F00674941 /* SFCommerce.txt */,
+				3E16FBE828F2A15F00674941 /* SFTime.txt */,
+				3E16FBE728F2A15F00674941 /* SFHealth.txt */,
+				3E16FBE528F2A15E00674941 /* SFShapes.txt */,
+				3E16FBE628F2A15F00674941 /* SFArrows.txt */,
+				3E16FBEF28F2A1F200674941 /* SFIndices.txt */,
+				3E16FBF128F2A20000674941 /* SFMath.txt */,
 			);
-			path = "New Group";
+			path = SFSymbolsText;
 			sourceTree = "<group>";
 		};
 		3E81136928EA8DD700E591EA = {
@@ -159,7 +220,6 @@
 				3E16FB9B28ED32EF00674941 /* Controls */,
 				3E95E39028EC845600FE8835 /* Buttons */,
 				3E81137928EA8DD800E591EA /* Assets.xcassets */,
-				3E16FBAE28F1DB2B00674941 /* New Group */,
 				3E81137B28EA8DD800E591EA /* Preview Content */,
 			);
 			path = SystemFeatureApp;
@@ -242,13 +302,33 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E16FBE028F2A07400674941 /* SFAccessibility.txt in Resources */,
 				3E81137D28EA8DD800E591EA /* Preview Assets.xcassets in Resources */,
+				3E16FBEB28F2A15F00674941 /* SFArrows.txt in Resources */,
+				3E16FBEE28F2A15F00674941 /* SFCommerce.txt in Resources */,
+				3E16FBDD28F2A07400674941 /* SFTransportation.txt in Resources */,
+				3E16FBF228F2A20000674941 /* SFMath.txt in Resources */,
+				3E16FBDC28F2A07400674941 /* SFNature.txt in Resources */,
 				3E16FBBF28F1DBA100674941 /* SFDevices.txt in Resources */,
+				3E16FBDA28F2A07400674941 /* SFMedia.txt in Resources */,
 				3E16FBC728F1DBA100674941 /* SFCommunication.txt in Resources */,
+				3E16FBE128F2A07400674941 /* SFGaming.txt in Resources */,
+				3E16FBEA28F2A15F00674941 /* SFShapes.txt in Resources */,
+				3E16FBDB28F2A07400674941 /* SFHome.txt in Resources */,
 				3E16FBC628F1DBA100674941 /* SFMultiColors.txt in Resources */,
+				3E16FBD928F2A07400674941 /* SFConnectivity.txt in Resources */,
+				3E16FBE328F2A07400674941 /* SFPrivacy.txt in Resources */,
 				3E81137A28EA8DD800E591EA /* Assets.xcassets in Resources */,
+				3E16FBF028F2A1F200674941 /* SFIndices.txt in Resources */,
 				3E16FBAD28F0DCB200674941 /* SFWhatNew.txt in Resources */,
+				3E16FBDF28F2A07400674941 /* SFTextFormatting.txt in Resources */,
+				3E16FBCA28F2A04500674941 /* SFKeyboard.txt in Resources */,
+				3E16FBEC28F2A15F00674941 /* SFHealth.txt in Resources */,
+				3E16FBE228F2A07400674941 /* SFFitness.txt in Resources */,
+				3E16FBE428F2A07400674941 /* SFEditing.txt in Resources */,
 				3E16FBBE28F1DBA100674941 /* SFWhether.txt in Resources */,
+				3E16FBDE28F2A07400674941 /* SFHuman.txt in Resources */,
+				3E16FBED28F2A15F00674941 /* SFTime.txt in Resources */,
 				3E16FBC128F1DBA100674941 /* SFObjects.txt in Resources */,
 				3E16FBC328F1DBA100674941 /* SFCameraPhoto.txt in Resources */,
 				3E16FBC428F1DBA100674941 /* SFVariables.txt in Resources */,
