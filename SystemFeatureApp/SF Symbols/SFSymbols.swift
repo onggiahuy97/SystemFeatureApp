@@ -9,7 +9,19 @@ let sfSymbolsSectionOutline: SectionOutline = {
     return section
 }()
 
-class SFSymbolsViewModel {
+class SFSymbolsViewModel: ObservableObject {
+    @Published var searchText = ""
+    
+    var searchSymbolString: [String] {
+        if let all = Self.SFSymbols.first {
+            let result = all.symbols.filter { $0.lowercased().contains(searchText.lowercased()) }
+            return result
+        } else {
+            return []
+        }
+    }
+    
+    
     static let SFSymbols: [SFSymbol] = {
         var sfSymbols = [SFSymbol]()
         

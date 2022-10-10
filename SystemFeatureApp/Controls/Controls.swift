@@ -28,5 +28,6 @@ fileprivate let toggleInputOutline: Outline = {
     let toggleInputView = AnyView(ToggleView())
     var toggleInputOutline = Outline(title: "Toggle", outlineType: .outlineView(toggleInputView))
     toggleInputOutline.systemImage = "switch.2"
+    toggleInputOutline.foregroundColor = "Green"
     return toggleInputOutline
 }()

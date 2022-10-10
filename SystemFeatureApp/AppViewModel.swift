@@ -29,5 +29,6 @@ class AppViewModel: ObservableObject {
         sectionOutlines.append(buttonSectionOutline)
         sectionOutlines.append(controlsSectionOutline)
         sectionOutlines.append(sfSymbolsSectionOutline)
+        sectionOutlines.append(animationSectionOutline)
     }
 }

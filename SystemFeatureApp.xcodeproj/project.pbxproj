@@ -24,7 +24,6 @@
 		3E16FBC728F1DBA100674941 /* SFCommunication.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3E16FBBA28F1DBA100674941 /* SFCommunication.txt */; };
 		3E16FBCA28F2A04500674941 /* SFKeyboard.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3E16FBC928F2A04500674941 /* SFKeyboard.txt */; };
 		3E16FBD928F2A07400674941 /* SFConnectivity.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3E16FBCD28F2A07400674941 /* SFConnectivity.txt */; };
-		3E16FBDA28F2A07400674941 /* SFMedia.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3E16FBCE28F2A07400674941 /* SFMedia.txt */; };
 		3E16FBDB28F2A07400674941 /* SFHome.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3E16FBCF28F2A07400674941 /* SFHome.txt */; };
 		3E16FBDC28F2A07400674941 /* SFNature.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3E16FBD028F2A07400674941 /* SFNature.txt */; };
 		3E16FBDD28F2A07400674941 /* SFTransportation.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3E16FBD128F2A07400674941 /* SFTransportation.txt */; };
@@ -42,6 +41,9 @@
 		3E16FBEE28F2A15F00674941 /* SFCommerce.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3E16FBE928F2A15F00674941 /* SFCommerce.txt */; };
 		3E16FBF028F2A1F200674941 /* SFIndices.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3E16FBEF28F2A1F200674941 /* SFIndices.txt */; };
 		3E16FBF228F2A20000674941 /* SFMath.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3E16FBF128F2A20000674941 /* SFMath.txt */; };
+		3E16FBF428F3413D00674941 /* SFMedia.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3E16FBF328F3413D00674941 /* SFMedia.txt */; };
+		3E16FBF828F395F300674941 /* Animations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E16FBF728F395F300674941 /* Animations.swift */; };
+		3E16FBFA28F396D100674941 /* AnimationSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E16FBF928F396D100674941 /* AnimationSwiftUIView.swift */; };
 		3E81137628EA8DD700E591EA /* SystemFeatureAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E81137528EA8DD700E591EA /* SystemFeatureAppApp.swift */; };
 		3E81137828EA8DD700E591EA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E81137728EA8DD700E591EA /* ContentView.swift */; };
 		3E81137A28EA8DD800E591EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E81137928EA8DD800E591EA /* Assets.xcassets */; };
@@ -74,7 +76,6 @@
 		3E16FBBA28F1DBA100674941 /* SFCommunication.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SFCommunication.txt; sourceTree = "<group>"; };
 		3E16FBC928F2A04500674941 /* SFKeyboard.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SFKeyboard.txt; sourceTree = "<group>"; };
 		3E16FBCD28F2A07400674941 /* SFConnectivity.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SFConnectivity.txt; sourceTree = "<group>"; };
-		3E16FBCE28F2A07400674941 /* SFMedia.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = SFMedia.txt; path = ../../../../../../Desktop/SFMedia.txt; sourceTree = "<group>"; };
 		3E16FBCF28F2A07400674941 /* SFHome.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SFHome.txt; sourceTree = "<group>"; };
 		3E16FBD028F2A07400674941 /* SFNature.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SFNature.txt; sourceTree = "<group>"; };
 		3E16FBD128F2A07400674941 /* SFTransportation.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SFTransportation.txt; sourceTree = "<group>"; };
@@ -92,6 +93,9 @@
 		3E16FBE928F2A15F00674941 /* SFCommerce.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SFCommerce.txt; sourceTree = "<group>"; };
 		3E16FBEF28F2A1F200674941 /* SFIndices.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SFIndices.txt; sourceTree = "<group>"; };
 		3E16FBF128F2A20000674941 /* SFMath.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SFMath.txt; sourceTree = "<group>"; };
+		3E16FBF328F3413D00674941 /* SFMedia.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SFMedia.txt; sourceTree = "<group>"; };
+		3E16FBF728F395F300674941 /* Animations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animations.swift; sourceTree = "<group>"; };
+		3E16FBF928F396D100674941 /* AnimationSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationSwiftUIView.swift; sourceTree = "<group>"; };
 		3E81137228EA8DD700E591EA /* SystemFeatureApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SystemFeatureApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E81137528EA8DD700E591EA /* SystemFeatureAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemFeatureAppApp.swift; sourceTree = "<group>"; };
 		3E81137728EA8DD700E591EA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -177,9 +181,9 @@
 				3E16FBCF28F2A07400674941 /* SFHome.txt */,
 				3E16FBD628F2A07400674941 /* SFFitness.txt */,
 				3E16FBD028F2A07400674941 /* SFNature.txt */,
+				3E16FBF328F3413D00674941 /* SFMedia.txt */,
 				3E16FBD828F2A07400674941 /* SFEditing.txt */,
 				3E16FBD328F2A07400674941 /* SFTextFormatting.txt */,
-				3E16FBCE28F2A07400674941 /* SFMedia.txt */,
 				3E16FBC928F2A04500674941 /* SFKeyboard.txt */,
 				3E16FBE928F2A15F00674941 /* SFCommerce.txt */,
 				3E16FBE828F2A15F00674941 /* SFTime.txt */,
@@ -190,6 +194,15 @@
 				3E16FBF128F2A20000674941 /* SFMath.txt */,
 			);
 			path = SFSymbolsText;
+			sourceTree = "<group>";
+		};
+		3E16FBF628F395EC00674941 /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				3E16FBF728F395F300674941 /* Animations.swift */,
+				3E16FBF928F396D100674941 /* AnimationSwiftUIView.swift */,
+			);
+			path = Animations;
 			sourceTree = "<group>";
 		};
 		3E81136928EA8DD700E591EA = {
@@ -214,6 +227,7 @@
 				3E81137528EA8DD700E591EA /* SystemFeatureAppApp.swift */,
 				3E81137728EA8DD700E591EA /* ContentView.swift */,
 				3E95E38C28EBF6C300FE8835 /* AppViewModel.swift */,
+				3E16FBF628F395EC00674941 /* Animations */,
 				3E16FBA728F09EAA00674941 /* SF Symbols */,
 				3E16FBA428EFB76700674941 /* Gestures */,
 				3E16FBA228EDF76C00674941 /* Outline Configuration */,
@@ -304,13 +318,13 @@
 			files = (
 				3E16FBE028F2A07400674941 /* SFAccessibility.txt in Resources */,
 				3E81137D28EA8DD800E591EA /* Preview Assets.xcassets in Resources */,
+				3E16FBF428F3413D00674941 /* SFMedia.txt in Resources */,
 				3E16FBEB28F2A15F00674941 /* SFArrows.txt in Resources */,
 				3E16FBEE28F2A15F00674941 /* SFCommerce.txt in Resources */,
 				3E16FBDD28F2A07400674941 /* SFTransportation.txt in Resources */,
 				3E16FBF228F2A20000674941 /* SFMath.txt in Resources */,
 				3E16FBDC28F2A07400674941 /* SFNature.txt in Resources */,
 				3E16FBBF28F1DBA100674941 /* SFDevices.txt in Resources */,
-				3E16FBDA28F2A07400674941 /* SFMedia.txt in Resources */,
 				3E16FBC728F1DBA100674941 /* SFCommunication.txt in Resources */,
 				3E16FBE128F2A07400674941 /* SFGaming.txt in Resources */,
 				3E16FBEA28F2A15F00674941 /* SFShapes.txt in Resources */,
@@ -351,11 +365,13 @@
 				3E16FB9A28ED327800674941 /* Buttons.swift in Sources */,
 				3E16FBA128ED3E2E00674941 /* ToggleView.swift in Sources */,
 				3E95E39428EC91C700FE8835 /* HapticButtonsView.swift in Sources */,
+				3E16FBFA28F396D100674941 /* AnimationSwiftUIView.swift in Sources */,
 				3E16FBAB28F0A21700674941 /* SFSymbolsView.swift in Sources */,
 				3E81138428EA921000E591EA /* Outline.swift in Sources */,
 				3E95E38D28EBF6C300FE8835 /* AppViewModel.swift in Sources */,
 				3E81137828EA8DD700E591EA /* ContentView.swift in Sources */,
 				3E16FBA928F09EB600674941 /* SFSymbols.swift in Sources */,
+				3E16FBF828F395F300674941 /* Animations.swift in Sources */,
 				3E95E38F28EBF6FB00FE8835 /* SectionOutline.swift in Sources */,
 				3EA3820728EB939900BF5674 /* OutlineView.swift in Sources */,
 				3E81137628EA8DD700E591EA /* SystemFeatureAppApp.swift in Sources */,
