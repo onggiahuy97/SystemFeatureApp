@@ -8,22 +8,7 @@
 import SwiftUI
 
 struct AnimationSwiftUIView: View {
-    @State private var animated = false
-    @State private var animationType: AnimationType = .default
-    @State private var scale = 1.0
-    @Namespace private var namespace
-    
-    var animationTypePickerView: some View {
-        Picker(selection: $animationType) {
-            ForEach(AnimationType.allCases) { type in
-                Text(type.rawValue)
-                    .tag(type)
-            }
-        } label: {
-            Text("Pick animation type")
-        }
-        .pickerStyle(.segmented)
-    }
+    @State private var activeAnimation = false
     
     var objectView: some View {
         Rectangle()
@@ -33,28 +18,29 @@ struct AnimationSwiftUIView: View {
                 .linearGradient(colors: [.yellow, .blue], startPoint: .topLeading, endPoint: .bottomTrailing)
             )
             .padding()
-            .scaleEffect(scale)
     }
     
     var body: some View {
-        GeometryReader { proxy in
-            VStack(alignment: .leading) {
-                HStack {
-                    Spacer()
-                        .frame(maxWidth: animated ? .infinity : 0)
-                    objectView
-                }
-                .onChange(of: animationType) { _ in
-                    withAnimation(self.animationType.animation) {
-                        animated.toggle()
+        NavigationStack {
+            GeometryReader { proxy in
+                ScrollView {
+                    VStack(alignment: .leading) {
+                        ForEach(AnimationSwiftUIView.AnimationType.allCases) { animation in
+                            Text(animation.rawValue).bold()
+                            objectView
+                                .offset(x: activeAnimation ? proxy.size.width - 100 : 0)
+                                .animation(animation.animation, value: activeAnimation)
+                            Divider()
+                        }
+                    }
+                    .padding()
+                    .onAppear {
+                        activeAnimation = true
                     }
                 }
-                
-                ScrollView {
-                    animationTypePickerView
-                }
-                .padding()
+                .frame(maxWidth: .infinity)
             }
+            .navigationTitle("Animations")
         }
     }
 }
@@ -63,7 +49,7 @@ extension AnimationSwiftUIView {
     enum AnimationType: String, CaseIterable, Identifiable {
         var id: String { self.rawValue }
         
-        case `default`, spring, linear, inOut
+        case `default`, inOut, linear, spring
         
         var animation: Animation {
             var animation: Animation
@@ -71,15 +57,15 @@ extension AnimationSwiftUIView {
             switch self {
             case .default:
                 animation = Animation.default
-            case .spring:
-                animation = Animation.spring()
             case .linear:
                 animation = Animation.linear
             case .inOut:
                 animation = Animation.easeInOut
+            case .spring:
+                animation = Animation.spring()
             }
             
-            return animation.speed(0.3).repeatForever(autoreverses: true)
+            return animation.speed(0.65).repeatForever(autoreverses: true)
         }
     }
 }

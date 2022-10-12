@@ -44,6 +44,9 @@
 		3E16FBF428F3413D00674941 /* SFMedia.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3E16FBF328F3413D00674941 /* SFMedia.txt */; };
 		3E16FBF828F395F300674941 /* Animations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E16FBF728F395F300674941 /* Animations.swift */; };
 		3E16FBFA28F396D100674941 /* AnimationSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E16FBF928F396D100674941 /* AnimationSwiftUIView.swift */; };
+		3E46EF6428F64EAF00C64B47 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E46EF6328F64EAF00C64B47 /* NetworkManager.swift */; };
+		3E46EF6628F6555F00C64B47 /* LoadImageWithURLView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E46EF6528F6555F00C64B47 /* LoadImageWithURLView.swift */; };
+		3E46EF6928F671F100C64B47 /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E46EF6828F671F100C64B47 /* Image.swift */; };
 		3E81137628EA8DD700E591EA /* SystemFeatureAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E81137528EA8DD700E591EA /* SystemFeatureAppApp.swift */; };
 		3E81137828EA8DD700E591EA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E81137728EA8DD700E591EA /* ContentView.swift */; };
 		3E81137A28EA8DD800E591EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E81137928EA8DD800E591EA /* Assets.xcassets */; };
@@ -96,6 +99,9 @@
 		3E16FBF328F3413D00674941 /* SFMedia.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SFMedia.txt; sourceTree = "<group>"; };
 		3E16FBF728F395F300674941 /* Animations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animations.swift; sourceTree = "<group>"; };
 		3E16FBF928F396D100674941 /* AnimationSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationSwiftUIView.swift; sourceTree = "<group>"; };
+		3E46EF6328F64EAF00C64B47 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		3E46EF6528F6555F00C64B47 /* LoadImageWithURLView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadImageWithURLView.swift; sourceTree = "<group>"; };
+		3E46EF6828F671F100C64B47 /* Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
 		3E81137228EA8DD700E591EA /* SystemFeatureApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SystemFeatureApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E81137528EA8DD700E591EA /* SystemFeatureAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemFeatureAppApp.swift; sourceTree = "<group>"; };
 		3E81137728EA8DD700E591EA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -205,6 +211,23 @@
 			path = Animations;
 			sourceTree = "<group>";
 		};
+		3E46EF6228F64EA600C64B47 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				3E46EF6328F64EAF00C64B47 /* NetworkManager.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		3E46EF6728F671E000C64B47 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				3E46EF6828F671F100C64B47 /* Image.swift */,
+				3E46EF6528F6555F00C64B47 /* LoadImageWithURLView.swift */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
 		3E81136928EA8DD700E591EA = {
 			isa = PBXGroup;
 			children = (
@@ -227,6 +250,8 @@
 				3E81137528EA8DD700E591EA /* SystemFeatureAppApp.swift */,
 				3E81137728EA8DD700E591EA /* ContentView.swift */,
 				3E95E38C28EBF6C300FE8835 /* AppViewModel.swift */,
+				3E46EF6728F671E000C64B47 /* Images */,
+				3E46EF6228F64EA600C64B47 /* Networking */,
 				3E16FBF628F395EC00674941 /* Animations */,
 				3E16FBA728F09EAA00674941 /* SF Symbols */,
 				3E16FBA428EFB76700674941 /* Gestures */,
@@ -365,11 +390,14 @@
 				3E16FB9A28ED327800674941 /* Buttons.swift in Sources */,
 				3E16FBA128ED3E2E00674941 /* ToggleView.swift in Sources */,
 				3E95E39428EC91C700FE8835 /* HapticButtonsView.swift in Sources */,
+				3E46EF6928F671F100C64B47 /* Image.swift in Sources */,
 				3E16FBFA28F396D100674941 /* AnimationSwiftUIView.swift in Sources */,
 				3E16FBAB28F0A21700674941 /* SFSymbolsView.swift in Sources */,
 				3E81138428EA921000E591EA /* Outline.swift in Sources */,
+				3E46EF6428F64EAF00C64B47 /* NetworkManager.swift in Sources */,
 				3E95E38D28EBF6C300FE8835 /* AppViewModel.swift in Sources */,
 				3E81137828EA8DD700E591EA /* ContentView.swift in Sources */,
+				3E46EF6628F6555F00C64B47 /* LoadImageWithURLView.swift in Sources */,
 				3E16FBA928F09EB600674941 /* SFSymbols.swift in Sources */,
 				3E16FBF828F395F300674941 /* Animations.swift in Sources */,
 				3E95E38F28EBF6FB00FE8835 /* SectionOutline.swift in Sources */,

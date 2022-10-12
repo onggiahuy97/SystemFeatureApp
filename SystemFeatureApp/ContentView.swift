@@ -12,9 +12,8 @@ struct ContentView: View {
     
     var body: some View {
         TabView(selection: $selectedTabID) {
-            AnimationSwiftUIView()
             OutlineView()
-//                .tag(OutlineView.TagID)
+                .tag(OutlineView.TagID)
                 .tabItem {
                     Label("Feature", systemImage: "gear")
                 }
