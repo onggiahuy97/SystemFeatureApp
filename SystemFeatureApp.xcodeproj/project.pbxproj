@@ -59,6 +59,9 @@
 		3E95E39828EC955F00FE8835 /* GesturesButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E95E39728EC955F00FE8835 /* GesturesButtonView.swift */; };
 		3EA3820528EB927F00BF5674 /* OutlineLabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA3820428EB927F00BF5674 /* OutlineLabelView.swift */; };
 		3EA3820728EB939900BF5674 /* OutlineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA3820628EB939900BF5674 /* OutlineView.swift */; };
+		3EC6E78E28F75FA30082588D /* Unsplash.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EC6E78D28F75FA30082588D /* Unsplash.swift */; };
+		3EC6E79028F761900082588D /* UnsplashImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EC6E78F28F761900082588D /* UnsplashImageView.swift */; };
+		3EC6E79228F7700C0082588D /* UnsplashManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EC6E79128F7700C0082588D /* UnsplashManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -115,6 +118,9 @@
 		3E95E39728EC955F00FE8835 /* GesturesButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GesturesButtonView.swift; sourceTree = "<group>"; };
 		3EA3820428EB927F00BF5674 /* OutlineLabelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutlineLabelView.swift; sourceTree = "<group>"; };
 		3EA3820628EB939900BF5674 /* OutlineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutlineView.swift; sourceTree = "<group>"; };
+		3EC6E78D28F75FA30082588D /* Unsplash.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Unsplash.swift; sourceTree = "<group>"; };
+		3EC6E78F28F761900082588D /* UnsplashImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnsplashImageView.swift; sourceTree = "<group>"; };
+		3EC6E79128F7700C0082588D /* UnsplashManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnsplashManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -215,6 +221,7 @@
 			isa = PBXGroup;
 			children = (
 				3E46EF6328F64EAF00C64B47 /* NetworkManager.swift */,
+				3EC6E79128F7700C0082588D /* UnsplashManager.swift */,
 			);
 			path = Networking;
 			sourceTree = "<group>";
@@ -224,6 +231,8 @@
 			children = (
 				3E46EF6828F671F100C64B47 /* Image.swift */,
 				3E46EF6528F6555F00C64B47 /* LoadImageWithURLView.swift */,
+				3EC6E78D28F75FA30082588D /* Unsplash.swift */,
+				3EC6E78F28F761900082588D /* UnsplashImageView.swift */,
 			);
 			path = Images;
 			sourceTree = "<group>";
@@ -383,6 +392,7 @@
 			files = (
 				3E95E39228EC845F00FE8835 /* ColorPickerView.swift in Sources */,
 				3E16FB9D28ED363200674941 /* Controls.swift in Sources */,
+				3EC6E78E28F75FA30082588D /* Unsplash.swift in Sources */,
 				3EA3820528EB927F00BF5674 /* OutlineLabelView.swift in Sources */,
 				3E95E39828EC955F00FE8835 /* GesturesButtonView.swift in Sources */,
 				3E16FBA628EFB77100674941 /* DragGestureView.swift in Sources */,
@@ -394,6 +404,8 @@
 				3E16FBFA28F396D100674941 /* AnimationSwiftUIView.swift in Sources */,
 				3E16FBAB28F0A21700674941 /* SFSymbolsView.swift in Sources */,
 				3E81138428EA921000E591EA /* Outline.swift in Sources */,
+				3EC6E79028F761900082588D /* UnsplashImageView.swift in Sources */,
+				3EC6E79228F7700C0082588D /* UnsplashManager.swift in Sources */,
 				3E46EF6428F64EAF00C64B47 /* NetworkManager.swift in Sources */,
 				3E95E38D28EBF6C300FE8835 /* AppViewModel.swift in Sources */,
 				3E81137828EA8DD700E591EA /* ContentView.swift in Sources */,
